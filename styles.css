@@ -55,6 +55,7 @@ nav ul li a {
     left: 200px;
     width: 40px;
     height: 40px;
+    background-image: url("visir.jpg");
     background-color: rgb(90, 117, 91);
 }
 
