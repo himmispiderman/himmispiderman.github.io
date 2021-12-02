@@ -56,7 +56,6 @@ nav ul li a {
     width: 40px;
     height: 40px;
     background-image: url("visir.jpg");
-    background-color: rgb(90, 117, 91);
 }
 
 .active-nav .content {
