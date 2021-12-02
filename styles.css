@@ -60,6 +60,10 @@ nav ul li a {
 
 .active-nav .content {
     transform: translate3d(200px, 0, 0);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 h1 {
