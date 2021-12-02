@@ -1,0 +1,32 @@
+        .col-2 {
+            border: 1px solid black;
+            display: grid;
+            padding: 1em;
+            grid-template-columns: 24em 24em;
+            max-width: 60em;
+            margin: 0 auto;
+            justify-content: center;
+            gap: 50px;
+        }
+        
+        .col-3 {
+            border: 1px solid black;
+            display: grid;
+            padding: 1em;
+            grid-template-columns: 20em 20em 20em;
+            max-width: 68em;
+            margin: 0 auto;
+            justify-content: center;
+            gap: 50px;
+        }
+        
+        .col-4 {
+            border: 1px solid black;
+            display: grid;
+            padding: 1em;
+            grid-template-columns: 15em 15em 15em 15em;
+            max-width: 73em;
+            margin: 0 auto;
+            justify-content: center;
+            gap: 50px;
+        }

@@ -1,0 +1,17 @@
+h1 {
+    border: 2px solid rgb(4, 185, 4)
+}
+
+.box {
+    border: 4px solid red;
+    margin: 1em 0;
+    padding: 2em 1em;
+    color: red;
+}
+
+.box2 {
+    border: 6px solid red;
+    color: blue;
+    padding: .5em;
+    font-family: sans-serif;
+}

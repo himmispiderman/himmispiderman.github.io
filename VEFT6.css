@@ -1,0 +1,54 @@
+body {
+    background-image: url("supervolcano.jpg");
+    background-color: #cccccc;
+}
+
+.head {
+    background-color: rgba(228, 140, 39, 0.8);
+    width: fit-content;
+    color: orangered;
+    border: 2px solid orange;
+}
+
+.css {
+    background-color: rgba(228, 140, 39, 0.8);
+    width: fit-content;
+    color: orangered;
+    border: 2px solid orange;
+    font-size: 25px;
+}
+
+.col {
+    border: 5px solid gray;
+    background-color: rgba(228, 140, 39, 0.8);
+}
+
+.h1 {
+    color: tomato;
+    border: 2px solid red;
+    width: fit-content;
+}
+
+@media only screen and (max-width: 30em) {
+    body {
+        background-image: url("rsz_supervolcano.jpg");
+    }
+}
+
+@media screen and (max-width: 48em) {
+    body {
+        background-image: url("rsz_1supervolcano.jpg");
+    }
+}
+
+@media screen and (max-width: 80em) {
+    body {
+        background-image: url("rsz_2supervolcano.jpg");
+    }
+}
+
+@media screen and (min-width: 80em) {
+    body {
+        background-image: url("supervolcano.jpg");
+    }
+}

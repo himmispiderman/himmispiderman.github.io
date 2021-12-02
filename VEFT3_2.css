@@ -1,0 +1,90 @@
+    .topnav {
+        border: 1px solid black;
+    }
+    
+    .topmenu {
+        color: white;
+        text-align: center;
+        padding: 1em;
+        display: grid;
+        grid-template-columns: 15em 15em 15em 15em;
+        gap: 10em;
+    }
+    
+    .header {
+        border: 1px solid black;
+        color: yellow;
+        text-align: center;
+        display: grid;
+        font-size: 2em;
+    }
+    
+    .gridlink {
+        text-align: center;
+        display: grid;
+        font-size: 0.7em;
+    }
+    
+    .main {
+        border: 1px solid black;
+    }
+    
+    .art1 {
+        display: grid;
+        border: 1px solid black;
+        padding: 1em;
+        grid-area: menu;
+        grid-template-columns: 20em;
+        margin: 0 auto;
+        gap: 10px;
+    }
+    
+    .blocker {
+        border: 1px solid black;
+        padding: 1em;
+    }
+    
+    .as1 {
+        display: grid;
+        border: 1px solid black;
+        padding: 1em;
+        grid-template-columns: 10em;
+        margin: 0 auto;
+        gap: 10px;
+        position: absolute;
+        right: 15em;
+    }
+    
+    .as2 {
+        display: grid;
+        border: 1px solid black;
+        padding: 1em;
+        grid-template-columns: 10em;
+        margin: 0 auto;
+        gap: 10px;
+        position: absolute;
+        right: 2em;
+    }
+    
+    .mainMenu {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #333;
+    }
+    
+    .mainMenu li {
+        float: left;
+    }
+    /* And so on... */
+    
+    .mainMenu li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .footer {}

@@ -1,0 +1,38 @@
+.box1 {
+    border: 1px solid black;
+    width: 50%;
+    box-sizing: border-box;
+    float: left;
+}
+
+.box2 {
+    border: 1px solid black;
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+}
+
+.box3 {
+    border: 1px solid black;
+    clear: both;
+}
+
+.bigL {
+    float: left;
+    margin: 10px 10px 0px 0px;
+    font-size: 100px;
+}
+
+.athugid {
+    background-color: yellow;
+}
+
+.imgR {
+    float: right;
+}
+
+.verk1 {
+    border: 1px;
+    text-align: right;
+    background-color: rgb(235, 232, 232);
+}
