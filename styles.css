@@ -8,7 +8,7 @@ body {
     /* font-family: ;*/
     font: 400 1em/1.5 sans-serif;
     /* samsett skipun: weight/height, size, family */
-    background-color: white;
+    background-color: rgb(156, 187, 157);
     overflow-x: hidden;
 }
 
@@ -27,7 +27,7 @@ nav {
     top: 0;
     bottom: 0;
     width: 200px;
-    background-color: #036;
+    background-color: rgb(128, 153, 129);
     transform: translate3d(-200px, 0, 0);
     transition: transform 0.4s ease;
 }
@@ -55,7 +55,7 @@ nav ul li a {
     left: 200px;
     width: 40px;
     height: 40px;
-    background-color: #666;
+    background-color: rgb(90, 117, 91);
 }
 
 .active-nav .content {
@@ -130,7 +130,7 @@ header {
 }
 
 footer {
-    background-color: rgb(103, 103, 250);
+    background-color: rgb(83, 192, 87);
 }
 
 .topbutt {
