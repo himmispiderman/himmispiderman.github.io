@@ -220,3 +220,10 @@ span {
     margin: 1em;
     padding: 1em;
 }
+
+.LOL {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
