@@ -50,12 +50,10 @@ nav ul li a {
 }
 
 .nav-toggle-btn {
-    display: block;
-    position: absolute;
-    left: 200px;
+    background-image: url(visir.png);
+    background-repeat: no-repeat;
     width: 40px;
     height: 40px;
-    background-image: url("visir.jpg");
 }
 
 .active-nav .content {
