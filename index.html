@@ -1,30 +1,108 @@
 <!DOCTYPE html>
-<html>
+<html lang="is">
   <head>
-    <center><title>Verkefna síða</title>
-      <h1>Verkefni 1</h1>
-      <h2><a href="Files/VEFÞ_1.1.html">Verkefni1.1</a><br></h2>
-      <h2><a href="Files/VEFÞ_1.2.html">Verkefni1.2</a><br></h2>
-      <h1>Verkefni 2</h1>
-      <h2><a href="Files/VEFÞ_VERK2.1.html">Verkefni2-1</a><br></h2>
-      <h2><a href="Files/VEFÞ.2.2.HTML">Verkefni2-2</a><br></h2>
-      <h2><a href="Files/VEFÞ.2.3.html">Verkefni2-3</a><br></h2>
-      <h1>Verkefni 3</h1>
-      <h2><a href="Files/index.html">Verkefni3-1</a><br></h2>
-      <h2><a href="Files/VEFÞ3_2.html">Verkefni3.2</a><br></h2>
-      <h1>Verkefni 4</h1>
-      <h2><a href="Files/VEFÞ4.1.html">Verkefni4.1</a><br></h2></h2>
-      <h2><a href="Files/VEFT4_2.html">Verkefni4.2</a><br></h2></h2>
-      <h1>Verkefni 5</h1>
-      <h2><a href="Files/VEFT5.html">Verkefni 5</a><br></h2>
-      <h1>Verkefni 6</h1>
-      <h2><a href="Files/VEFT6.html">Verkefni 6 INDEX</a><br></h2>
-      <h2><a href="Files/mynd6.html">Verkefni 6 MYNDIR</a><br></h2>
-      <h1>Verkefni 7</h1>
-      <h2><a href="Files/VEFT7.html">Verkefni 7</a><br></h2>
-    </center>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Verkefni 5</title>
+    <style type="text/css"></style>
+    <!-- veljið leturgerð af http://fonts.google.com-->
+    <link rel="stylesheet" href="VEFT5.css">
   </head>
-  <body>
-  
+  <body id=" ">
+    <header>
+        <nav>
+            <a href="#" class="nav-toggle-btn"></a>
+            <img src="visir.gif" alt="">
+            <ul>
+                <dl class="navbar"> 
+                <li><a href="#Video">Video</a></li>
+                <li><a href="#Maps">Maps</a></li>
+                <li><a href="#Photoalbum">Photoalbum</a></li>
+                </dl>
+            </ul>  
+        </nav>
+                <div class="content">
+                  <img src="logo.svg" alt="">
+                  <span>VERKEFNI 5</span>
+                </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+            <script type="text/javascript">
+                
+                (function() {
+                    
+                    var bodyEl = $('body'),
+                        navToggleBtn = bodyEl.find('.nav-toggle-btn');
+                    
+                    navToggleBtn.on('click', function(e) {
+                        bodyEl.toggleClass('active-nav');
+                        e.preventDefault();
+                    });      
+                })();  
+            </script>
+      </div>
+    </header>
+    <div class="main bot content" id="Innri tenglar">
+        <section class="container">
+        <h1>Um mig</h1>
+        <img src="Ég.jpg" class="eg">
+        <p class="ummig">Hæ, <strong>Hilmir Gauti Bjarnason</strong> heiti ég, Emailið mitt er hilmir(hjá)bjarni.is. Ég er 16 ára er ekki kominn með bílpróf. Það sem ég geri er að ég vinn ekki neinstaðar og ég er að drukkna í lærdómi.</p>
+        <h1>ÁHUGAMÁL</h1>
+        <p>Ég hef rosalega gaman að tölvum. Ég hef gaman að spila tölvuleiki, leysa vandamál í Windows GUI, forrita leiki og mikið meira.</p>
+        <h1>Kennara ferillin minn</h1>
+        <p>Fyrsti kennarinn sem ég man eftir heitir Kolla hann kendi mér frá fyrsta til fjórða bekk. Hún kenndi mér að margfalda háar tölur á mjög léttan hátt. </p>
+      </section>
+    </div>
+    <div class="main bot content" id="Video">
+      <section class="container">
+        <div>
+            <h3 class=" ">Video</h3>
+            <p>Þetta er uppáhalds myndbandið mitt.</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/huNeUioH3hE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div>
+          <p>Ég hef mjög mikinn húmor fyrir þessu því að Pétur Jóhann er fyndnasti maður í heimi.</p>
+          <p>Hér er rosalega skemmtilegt lag sem ég hlusta á alla daga til að koma mér í gott skap.</p>
+          <audio controls>
+            <source src="villi.ogg" type="audio/ogg">
+            <source src="villi.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+          <p><a href=" ">Efst á síðu</a></p>
+        </div>
+      </section>
+    </div>
+    <div class="main bot content" id="Maps">
+      <section class="container" >
+          <h3 class=" ">Maps</h3>
+          <P>Ég bý hérna</p>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1745.3846864611269!2d-21.96513208370553!3d64.05808863027315!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48d60c53a00c2c71%3A0xa141eb0745f4862d!2zU23DoXJhaHZhbW11ciA0LCBIYWZuYXJmasO2csOwdXI!5e0!3m2!1sen!2sis!4v1637228560773!5m2!1sen!2sis" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+          <p><a href=" ">Efst á síðu</a></p>
+      </section>
+    </div>
+    <div class="main bot content" id="Photoalbum">
+      <section class="container">
+          <h3 class=" ">Photoalbum</h3>
+            <p>Hérna er photo album sem ég setti saman</p>
+            <img class="photo1" src="bíll1.jpg" alt="photo1">
+            <img class="photo1" src="bíll.jpg" alt="photo2">
+            <img class="photo1" src="bíll2.jpg" alt="photo3">
+            <img class="photo1" src="bíll3.jpg" alt="photo3"> 
+          <p><a href=" ">Efst á síðu</a></p>
+      </section>
+    </div>
+      <footer>
+        <div class="content">
+              <ul>
+                  <dl class="fotur"> 
+                  <li><a href="#Video">Video</a></li>
+                  <li><a href="#Maps">Maps</a></li>
+                  <li><a href="#Photoalbum">Photoalbum</a></li>
+                  </dl>
+              </ul>  
+          <p class="copy">&nbsp;&copy; 2021 ---</p>
+          <!--tengill með absolute staðsetningu -->
+          <a href=" " class="topbutt" title="Efst á síðu"> &#8679; </a>
+        </div>
+    </footer>
   </body>
 </html>
