@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="is">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hafa Samband</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Heim</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Reiknivél</a>
+                <div class="dropdown-content">
+                    <a href="verd.html">Reikna verð</a>
+                    <a href="km.html">Reikna KM</a>
+                    <a href="vegalend.html">Fá Vegalengd</a>
+                    <a href="bensinverd.html">Bensínverð.is</a>
+                </div>
+            </li>
+            <li><a href="about.html">Um Okkur</a></li>
+            <li><a href="contact.html">Hafðu Samband</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <h1>Hafa Samband</h1>
+        <form action="submit-form.php" method="POST">
+            <div class="input-group">
+                <label for="name">Nafn</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Netfang</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="input-group">
+                <label for="subject">Efni</label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="input-group">
+                <label for="message">Skilaboð</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <div class="input-group">
+                <button type="submit" class="btn">Senda</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
